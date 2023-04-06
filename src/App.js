@@ -1,6 +1,6 @@
 import Navbar from './scenes/Navbar';
 import Landing from './scenes/Landing';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
